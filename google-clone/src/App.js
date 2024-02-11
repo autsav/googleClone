@@ -1,9 +1,16 @@
 import React from 'react'
-import './App.css'
-function App() {
+import GoogleSearch from './components/GoogleSearch'
+
+
+const App = () => {
   return (
-    <div>App</div>
-  )
+      <section>
+        <GoogleSearch />
+   
+ 
+
+      </section>
+    )
 }
 
 export default App
